@@ -44,5 +44,5 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Sources/**/*.swift', 'Sources/**/*.[ch]'
 
-  s.dependency 'gRPC-Core', '~> 1.8.0'
+  s.dependency 'gRPC-Core', :git => 'https://github.com/hinneslung/grpc.git', :branch => 'cocoa'
 end
