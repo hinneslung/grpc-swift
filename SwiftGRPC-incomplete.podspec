@@ -43,6 +43,5 @@ Pod::Spec.new do |s|
   #s.watchos.deployment_target = '2.0'
 
   s.source_files = 'Sources/**/*.swift', 'Sources/**/*.[ch]'
-
-  s.dependency 'gRPC-Core', :git => 'https://github.com/hinneslung/grpc.git'
+  
 end
